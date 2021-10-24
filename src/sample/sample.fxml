@@ -3,8 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -14,7 +13,8 @@
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
-            <Button layoutX="48.0" layoutY="100.0" mnemonicParsing="false" text="Button" />
+            <Button layoutX="61.0" layoutY="53.0" mnemonicParsing="false" onAction="#exit" text="Button" />
+            <Label layoutX="86.0" layoutY="122.0" text="pass through test!!" />
          </children>
       </AnchorPane>
    </children>
